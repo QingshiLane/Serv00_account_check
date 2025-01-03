@@ -47,9 +47,13 @@ serv00&amp;ct8账户登录检测，青龙面板部署，向TG机器人推送结�
 ![image](https://github.com/user-attachments/assets/5ebbd613-ebed-497c-acd3-6f8942cdab66)
 
 4.创建定时任务
+
 任务名：serv00&ct8保活
+
 命令：task start.sh
+
 定时：0 8 3,17 * * 
+
 #定时规则为每月3号和17号的8点，请自行修改
 
 ![image](https://github.com/user-attachments/assets/1d761141-2393-44f1-8249-7b8c1ea5e7d1)
