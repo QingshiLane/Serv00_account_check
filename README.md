@@ -36,8 +36,11 @@ serv00&amp;ct8账户登录检测，青龙面板部署，向TG机器人推送结�
 ![image](https://github.com/user-attachments/assets/2935406e-287d-4c37-a868-9e3a01bc4514)
 
 ### 2.更改accounts.json
+
 （1）打开`accounts.json`，修改其中`TG_BOT_TOKEN`和`TG_USER_ID`的值，将机器人的`Token`填入文件对应`" "`中（注意将值填入双引号中，保留双引号）。你的`用户ID`同理。
+
 （2）修改其中的`QL_URL`，这个可以改为你的青龙面板地址；也可以选择不用管，若更改填入自己的青龙面板地址话，可以在tg机器人消息推送中插一个快捷链接，方便你直接进入面板。
+
 （3）修改`accounts`,将列表中的字典键值更改为你的账号用户名和密码，以及对应的面板网址
 
 ![image](https://github.com/user-attachments/assets/d225b5eb-0e76-4233-927d-e82176f27d01)
@@ -48,11 +51,11 @@ serv00&amp;ct8账户登录检测，青龙面板部署，向TG机器人推送结�
 
 ### 4.创建定时任务
 
-任务名：serv00&ct8保活
+任务名：`serv00&ct8保活`
 
-命令：task start.sh
+命令：`task start.sh`
 
-定时：0 8 3,17 * * 
+定时：`0 8 3,17 * * `
 
 #定时规则为每月3号和17号的8点，请自行修改
 
