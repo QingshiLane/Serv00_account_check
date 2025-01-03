@@ -45,7 +45,7 @@ serv00&amp;ct8账户登录检测，青龙面板部署，向TG机器人推送结�
 
 ![image](https://github.com/user-attachments/assets/d225b5eb-0e76-4233-927d-e82176f27d01)
 
-### 3.将`start.sh`、`serv00.py`、`ccounts.json`放在青龙面板脚本管理下
+### 3.将`start.sh`、`serv00.py`、`accounts.json`放在青龙面板脚本管理下
 
 ![image](https://github.com/user-attachments/assets/5ebbd613-ebed-497c-acd3-6f8942cdab66)
 
